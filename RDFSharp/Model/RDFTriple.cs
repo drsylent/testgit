@@ -14,6 +14,8 @@
    limitations under the License.
 */
 
+// ide beírtam valamit
+
 using System;
 using RDFSharp.Query;
 
