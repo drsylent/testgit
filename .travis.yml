@@ -2,4 +2,4 @@ language: csharp
 solution: RDFSharp.sln
 script:
   - xbuild /p:Configuration=Release RDFSharp.sln
-  - mono ./packages/xunit.runner.console.*/tools/xunit.console.clr4.exe ./XUnitTestProject1/bin/Release/XUnitTestProject1.dll
+  - mono ./packages/xunit.runner.console.*/tools/xunit.console.exe ./XUnitTestProject1/bin/Release/XUnitTestProject1.dll
