@@ -10,3 +10,7 @@
 /.vs/RDFSharp/v15/Server/sqlite3/storage.ide
 /.vs/RDFSharp/v15/Server/sqlite3/db.lock
 /.vs/RDFSharp/DesignTimeBuild/.dtbcache
+/RDFSharp/bin/Debug
+/RDFSharp/obj/Debug
+/XUnitTestProject1/bin/Debug/netcoreapp2.0
+/XUnitTestProject1/obj
