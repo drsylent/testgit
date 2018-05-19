@@ -4,4 +4,4 @@ mono:
   - latest
 script:
   - msbuild /p:Configuration=Release RDFSharp.sln
-  - mono ./packages/xunit.runner.console.2.3.1/tools/xunit.console "./XUnitTestProject1/bin/Release/XUnitTestProject1.dll"
+  - mono packages/xunit.runner.console.2.3.1/tools/xunit.console XUnitTestProject1/bin/Release/XUnitTestProject1.dll
