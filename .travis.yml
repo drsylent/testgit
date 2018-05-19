@@ -2,3 +2,4 @@ language: csharp
 solution: RDFSharp.sln
 script:
   - msbuild /p:Configuration=Release RDFSharp.sln
+  - dotnet test XUnitTestProject1/XUnitTestProject1.csproj 
