@@ -5,4 +5,5 @@ install:
   - nuget install xunit.runner.console -Version 2.2.0 -OutputDirectory testrunner
 script:
   - msbuild /p:Configuration=Release RDFSharp.sln
+  - mono ./testrunner/xunit.runner.console.2.2.0/tools/xunit.console.exe ./XUnitTestProject1/bin/Release/netcoreapp2.0/XUnitTestProject1.dll
   - mono ./testrunner/xunit.runner.console.2.2.0/tools/xunit.console.exe ./XunitFrameworkmanual/bin/Release/XunitFrameworkmanual.dll
