@@ -1,3 +1,4 @@
+language: csharp
 solution: RDFSharp.sln
 dotnet: 2.0.0
 script:
