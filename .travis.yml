@@ -1,6 +1,7 @@
 language: csharp
 solution: RDFSharp.sln
-dotnet: 2.0.0
+mono:
+  - latest
 script:
   - msbuild /p:Configuration=Release RDFSharp.sln
-  - dotnet test
+  - mono ./packages/NUnit.ConsoleRunner.*/tools/nunit3-console.exe ./XUnitTestProject1/bin/Release/XUnitTestProject1.dll
