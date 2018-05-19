@@ -1,4 +1,4 @@
 language: csharp
 solution: RDFSharp.sln
 script:
-  - xbuild /p:Configuration=Release RDFSharp.sln
+  - msbuild /p:Configuration=Release RDFSharp.sln
