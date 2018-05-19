@@ -27,7 +27,7 @@
     <DocumentationFile>bin\Debug\RDFSharp.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)'=='Release'">
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <Platform>AnyCPU</Platform>
     <DebugType>none</DebugType>
     <Optimize>true</Optimize>
