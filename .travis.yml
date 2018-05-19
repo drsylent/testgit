@@ -1,2 +1,7 @@
 language: csharp
 solution: RDFSharp.sln
+mono:
+  - latest
+script:
+  - xbuild /p:Configuration=Release RDFSharp.sln
+  - mono ./packages/NUnit.ConsoleRunner.*/tools/nunit3-console.exe ./RDFSharpTest/bin/Release/RDFSharpTest.dll
