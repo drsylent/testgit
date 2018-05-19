@@ -14,3 +14,11 @@
 /RDFSharp/obj/Debug
 /XUnitTestProject1/bin/Debug/netcoreapp2.0
 /XUnitTestProject1/obj
+/XunitFramework
+/.axoCover/runs
+/packages
+/XunitFrameworkmanual/bin/Debug
+/XunitFrameworkmanual/obj/Debug
+/XUnitFrameworkTest
+/XUnitNFTest
+/XUnitTestProject2

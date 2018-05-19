@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RDFSharp", "RDFSharp\RDFSharp.csproj", "{1EEA1A7E-A661-4745-810E-FBEB9F20B6FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestProject1", "XUnitTestProject1\XUnitTestProject1.csproj", "{8128598F-1777-4F92-8F76-4DE5E2F9A1CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnitTestProject1", "XUnitTestProject1\XUnitTestProject1.csproj", "{8128598F-1777-4F92-8F76-4DE5E2F9A1CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XunitFrameworkmanual", "XunitFrameworkmanual\XunitFrameworkmanual.csproj", "{2E879AA5-29B4-4ABE-81D1-ACA51394EAA0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{8128598F-1777-4F92-8F76-4DE5E2F9A1CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8128598F-1777-4F92-8F76-4DE5E2F9A1CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8128598F-1777-4F92-8F76-4DE5E2F9A1CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E879AA5-29B4-4ABE-81D1-ACA51394EAA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E879AA5-29B4-4ABE-81D1-ACA51394EAA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E879AA5-29B4-4ABE-81D1-ACA51394EAA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E879AA5-29B4-4ABE-81D1-ACA51394EAA0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
